@@ -1,0 +1,18 @@
+{
+    "dataset": "519_vinnie",
+    "algorithm": "FFXRegressor",
+    "params": {},
+    "random_state": 860,
+    "process_time": 69.688719156,
+    "time_time": 61.737836837768555,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 32,
+    "symbolic_model": "0.627 - 0.371*max(0,1.31-X1) - 0.250*max(0,2.04-X1) + 0.214*max(0,X1+1.59) + 0.104*abs(X0) * max(0,X1+0.137)",
+    "mse_train": 2.293581692080488,
+    "mae_train": 1.2165108322135818,
+    "r2_train": 0.7438580026573901,
+    "mse_test": 2.3467153703800796,
+    "mae_test": 1.2384679704058346,
+    "r2_test": 0.7754642909791759
+}

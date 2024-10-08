@@ -1,0 +1,18 @@
+{
+    "dataset": "228_elusage",
+    "algorithm": "FFXRegressor",
+    "params": {},
+    "random_state": 15795,
+    "process_time": 54.361514775,
+    "time_time": 83.140873670578,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 65,
+    "symbolic_model": "-0.391 - 1.35*max(0,X0+0.489) * max(0,0.491-X0) + 1.30*max(0,-0.979-X0) + 1.26*max(0,0.491-X0) + 1.07*max(0,-0.979-X0) * max(0,-1.47-X0) - 0.842*max(0,0.00135-X0) - 0.277*max(0,X0+0.489) - 0.108*max(0,-0.979-X0) * max(0,0.491-X0)",
+    "mse_train": 50.384634221488575,
+    "mae_train": 5.453643671747468,
+    "r2_train": 0.8605452711276017,
+    "mse_test": 250.18432169316333,
+    "mae_test": 12.110753893831724,
+    "r2_test": 0.6917001776933015
+}

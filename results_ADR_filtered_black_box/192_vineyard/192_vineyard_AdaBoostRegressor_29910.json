@@ -1,0 +1,24 @@
+{
+    "dataset": "192_vineyard",
+    "algorithm": "AdaBoostRegressor",
+    "params": {
+        "base_estimator": null,
+        "learning_rate": 1.0,
+        "loss": "linear",
+        "n_estimators": 1000,
+        "random_state": 29910
+    },
+    "random_state": 29910,
+    "process_time": 16.512789308,
+    "time_time": 19.58584475517273,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 401,
+    "symbolic_model": "not implemented",
+    "mse_train": 3.0292681364951686,
+    "mae_train": 1.4653544817006354,
+    "r2_train": 0.8576499008076265,
+    "mse_test": 8.137062892915166,
+    "mae_test": 2.323951048951049,
+    "r2_test": 0.31719780094207395
+}

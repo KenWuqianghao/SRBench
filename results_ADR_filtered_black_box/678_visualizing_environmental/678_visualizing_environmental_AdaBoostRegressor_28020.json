@@ -1,0 +1,24 @@
+{
+    "dataset": "678_visualizing_environmental",
+    "algorithm": "AdaBoostRegressor",
+    "params": {
+        "base_estimator": null,
+        "learning_rate": 1.0,
+        "loss": "linear",
+        "n_estimators": 1000,
+        "random_state": 28020
+    },
+    "random_state": 28020,
+    "process_time": 25.729693357000002,
+    "time_time": 52.264546155929565,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 330,
+    "symbolic_model": "not implemented",
+    "mse_train": 4.614875396191294,
+    "mae_train": 1.7613136632475992,
+    "r2_train": 0.6220061466966196,
+    "mse_test": 9.198279789103406,
+    "mae_test": 2.5626213852424655,
+    "r2_test": 0.3197334424435092
+}

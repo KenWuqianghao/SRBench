@@ -1,0 +1,25 @@
+{
+    "dataset": "678_visualizing_environmental",
+    "algorithm": "KernelRidge",
+    "params": {
+        "alpha": 0.01,
+        "coef0": 1,
+        "degree": 3,
+        "gamma": 0.01,
+        "kernel": "sigmoid",
+        "kernel_params": null
+    },
+    "random_state": 860,
+    "process_time": 0.7932297950000002,
+    "time_time": 1.390833854675293,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 83,
+    "symbolic_model": "not implemented",
+    "mse_train": 8.084337276790881,
+    "mae_train": 2.148731596637836,
+    "r2_train": 0.3118928301660546,
+    "mse_test": 11.140553923039144,
+    "mae_test": 2.4874897657673927,
+    "r2_test": 0.19797009926441456
+}

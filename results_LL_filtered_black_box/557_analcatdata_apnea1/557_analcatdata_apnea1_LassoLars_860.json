@@ -1,0 +1,31 @@
+{
+    "dataset": "557_analcatdata_apnea1",
+    "algorithm": "LassoLars",
+    "params": {
+        "alpha": 0.1,
+        "copy_X": true,
+        "eps": 2.220446049250313e-16,
+        "fit_intercept": true,
+        "fit_path": true,
+        "jitter": null,
+        "max_iter": 500,
+        "normalize": true,
+        "positive": false,
+        "precompute": "auto",
+        "random_state": 860,
+        "verbose": false
+    },
+    "random_state": 860,
+    "process_time": 0.07409027299999993,
+    "time_time": 0.22800564765930176,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 3,
+    "symbolic_model": "not implemented",
+    "mse_train": 10056649.215274269,
+    "mae_train": 1364.9906419643985,
+    "r2_train": 0.0,
+    "mse_test": 10381453.813500158,
+    "mae_test": 1373.6477905769043,
+    "r2_test": -0.0001481988529181688
+}

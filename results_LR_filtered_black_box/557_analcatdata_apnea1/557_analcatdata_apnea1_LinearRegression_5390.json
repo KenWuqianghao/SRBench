@@ -1,0 +1,24 @@
+{
+    "dataset": "557_analcatdata_apnea1",
+    "algorithm": "LinearRegression",
+    "params": {
+        "copy_X": true,
+        "fit_intercept": true,
+        "n_jobs": null,
+        "normalize": false,
+        "positive": false
+    },
+    "random_state": 5390,
+    "process_time": 4.185911033,
+    "time_time": 0.38670849800109863,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 3,
+    "symbolic_model": "not implemented",
+    "mse_train": 8282482.6679869555,
+    "mae_train": 1269.4580929386275,
+    "r2_train": 0.00828590725854328,
+    "mse_test": 15072469.391689165,
+    "mae_test": 1549.9140802000757,
+    "r2_test": 0.0220257003020895
+}

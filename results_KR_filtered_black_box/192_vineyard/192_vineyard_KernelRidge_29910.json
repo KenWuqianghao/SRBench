@@ -1,0 +1,25 @@
+{
+    "dataset": "192_vineyard",
+    "algorithm": "KernelRidge",
+    "params": {
+        "alpha": 0.01,
+        "coef0": 1,
+        "degree": 3,
+        "gamma": 0.01,
+        "kernel": "poly",
+        "kernel_params": null
+    },
+    "random_state": 29910,
+    "process_time": 0.8598531229999999,
+    "time_time": 1.9790587425231934,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 39,
+    "symbolic_model": "not implemented",
+    "mse_train": 4.688203657543046,
+    "mae_train": 1.8231515137909104,
+    "r2_train": 0.7796938977949186,
+    "mse_test": 4.162005408870112,
+    "mae_test": 1.5366306516555666,
+    "r2_test": 0.650755256157374
+}

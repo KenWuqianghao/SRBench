@@ -1,0 +1,24 @@
+{
+    "dataset": "663_rabe_266",
+    "algorithm": "LinearRegression",
+    "params": {
+        "copy_X": true,
+        "fit_intercept": true,
+        "n_jobs": null,
+        "normalize": false,
+        "positive": false
+    },
+    "random_state": 23654,
+    "process_time": 0.016276263999999818,
+    "time_time": 0.17433476448059082,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 2,
+    "symbolic_model": "not implemented",
+    "mse_train": 77.08633295028731,
+    "mae_train": 6.777383757169736,
+    "r2_train": 0.972640014711603,
+    "mse_test": 73.10458995633229,
+    "mae_test": 6.997514686750701,
+    "r2_test": 0.969995653559937
+}

@@ -1,0 +1,31 @@
+{
+    "dataset": "523_analcatdata_neavote",
+    "algorithm": "LassoLars",
+    "params": {
+        "alpha": 0.001,
+        "copy_X": true,
+        "eps": 2.220446049250313e-16,
+        "fit_intercept": true,
+        "fit_path": true,
+        "jitter": null,
+        "max_iter": 500,
+        "normalize": true,
+        "positive": false,
+        "precompute": "auto",
+        "random_state": 21962,
+        "verbose": false
+    },
+    "random_state": 21962,
+    "process_time": 0.07815074499999985,
+    "time_time": 0.27809762954711914,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 2,
+    "symbolic_model": "not implemented",
+    "mse_train": 1.0595320018023509,
+    "mae_train": 0.6379485841145556,
+    "r2_train": 0.9316889311815072,
+    "mse_test": 0.6548493156337329,
+    "mae_test": 0.6042968820014079,
+    "r2_test": 0.9572954066912476
+}

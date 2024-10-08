@@ -1,0 +1,24 @@
+{
+    "dataset": "712_chscase_geyser1",
+    "algorithm": "AdaBoostRegressor",
+    "params": {
+        "base_estimator": null,
+        "learning_rate": 0.01,
+        "loss": "linear",
+        "n_estimators": 100,
+        "random_state": 860
+    },
+    "random_state": 860,
+    "process_time": 24.054310568,
+    "time_time": 25.826975345611572,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 1496,
+    "symbolic_model": "not implemented",
+    "mse_train": 26.13645531332388,
+    "mae_train": 4.1047335060171735,
+    "r2_train": 0.8320921214425688,
+    "mse_test": 52.44923166332241,
+    "mae_test": 5.736033900551057,
+    "r2_test": 0.7116431065955027
+}

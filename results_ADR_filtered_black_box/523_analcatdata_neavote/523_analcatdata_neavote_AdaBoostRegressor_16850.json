@@ -1,0 +1,24 @@
+{
+    "dataset": "523_analcatdata_neavote",
+    "algorithm": "AdaBoostRegressor",
+    "params": {
+        "base_estimator": null,
+        "learning_rate": 0.01,
+        "loss": "linear",
+        "n_estimators": 100,
+        "random_state": 16850
+    },
+    "random_state": 16850,
+    "process_time": 8.389162865,
+    "time_time": 8.996623277664185,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 768,
+    "symbolic_model": "not implemented",
+    "mse_train": 0.7601370974722992,
+    "mae_train": 0.596366959064328,
+    "r2_train": 0.9485553435849353,
+    "mse_test": 0.6109969774353646,
+    "mae_test": 0.561425438596492,
+    "r2_test": 0.9638240705857235
+}

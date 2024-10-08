@@ -1,0 +1,18 @@
+{
+    "dataset": "523_analcatdata_neavote",
+    "algorithm": "FFXRegressor",
+    "params": {},
+    "random_state": 5390,
+    "process_time": 81.870969189,
+    "time_time": 79.61500668525696,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 100,
+    "symbolic_model": "-1.24 + 2.34*max(0,-0.631-X0) + 0.598*X0^2 + 0.213*max(0,-0.363-X0) - 0.194*X0 + 0.190*max(0,-0.631-X0) * abs(X0) - 0.0986*max(0,-4.52-X1) + 0.0868*max(0,-0.631-X0) * max(0,X1+2.92) - 0.0210*max(0,-0.631-X0) * X0 + 0.0202*max(0,X1+3.72) * max(0,-0.631-X0) - 0.0155*max(0,X1+2.92) * X0 + 0.0154*max(0,-0.0940-X0) - 0.0134*max(0,X1+2.12) * X0",
+    "mse_train": 0.785151807342438,
+    "mae_train": 0.5881296359876059,
+    "r2_train": 0.9487980092248515,
+    "mse_test": 0.49133534349359886,
+    "mae_test": 0.5325480651292905,
+    "r2_test": 0.9680984220150115
+}

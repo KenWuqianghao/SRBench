@@ -1,0 +1,25 @@
+{
+    "dataset": "519_vinnie",
+    "algorithm": "KernelRidge",
+    "params": {
+        "alpha": 0.01,
+        "coef0": 1,
+        "degree": 3,
+        "gamma": 0.01,
+        "kernel": "rbf",
+        "kernel_params": null
+    },
+    "random_state": 14423,
+    "process_time": 7.809478642999999,
+    "time_time": 3.1412665843963623,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 285,
+    "symbolic_model": "not implemented",
+    "mse_train": 2.159190603262105,
+    "mae_train": 1.1703266523083238,
+    "r2_train": 0.7636467499117761,
+    "mse_test": 2.751772105774548,
+    "mae_test": 1.3413457456364803,
+    "r2_test": 0.7310918503300854
+}

@@ -1,0 +1,24 @@
+{
+    "dataset": "228_elusage",
+    "algorithm": "AdaBoostRegressor",
+    "params": {
+        "base_estimator": null,
+        "learning_rate": 1.0,
+        "loss": "linear",
+        "n_estimators": 1000,
+        "random_state": 21962
+    },
+    "random_state": 21962,
+    "process_time": 24.669707706,
+    "time_time": 61.333359241485596,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 166,
+    "symbolic_model": "not implemented",
+    "mse_train": 43.896188015683656,
+    "mae_train": 5.118946300059449,
+    "r2_train": 0.9211034943106854,
+    "mse_test": 84.22341403493627,
+    "mae_test": 6.872937229809575,
+    "r2_test": 0.8535069051971436
+}

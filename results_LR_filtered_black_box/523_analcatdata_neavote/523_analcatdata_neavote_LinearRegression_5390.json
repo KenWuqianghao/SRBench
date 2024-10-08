@@ -1,0 +1,24 @@
+{
+    "dataset": "523_analcatdata_neavote",
+    "algorithm": "LinearRegression",
+    "params": {
+        "copy_X": true,
+        "fit_intercept": true,
+        "n_jobs": null,
+        "normalize": false,
+        "positive": false
+    },
+    "random_state": 5390,
+    "process_time": 0.016189938999999987,
+    "time_time": 0.05480170249938965,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 2,
+    "symbolic_model": "not implemented",
+    "mse_train": 1.1290876035283821,
+    "mae_train": 0.6800852916750838,
+    "r2_train": 0.9263689741021245,
+    "mse_test": 0.4537917792985439,
+    "mae_test": 0.5311238300451151,
+    "r2_test": 0.9705360625325588
+}

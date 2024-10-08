@@ -1,0 +1,25 @@
+{
+    "dataset": "523_analcatdata_neavote",
+    "algorithm": "KernelRidge",
+    "params": {
+        "alpha": 0.1,
+        "coef0": 1,
+        "degree": 3,
+        "gamma": 10,
+        "kernel": "rbf",
+        "kernel_params": null
+    },
+    "random_state": 860,
+    "process_time": 0.7985510610000002,
+    "time_time": 1.0401899814605713,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 75,
+    "symbolic_model": "not implemented",
+    "mse_train": 0.5789472517751078,
+    "mae_train": 0.4790462713026796,
+    "r2_train": 0.9645121472960031,
+    "mse_test": 1.265909471523296,
+    "mae_test": 0.7739844769051735,
+    "r2_test": 0.9037008982835857
+}

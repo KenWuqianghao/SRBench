@@ -1,0 +1,24 @@
+{
+    "dataset": "192_vineyard",
+    "algorithm": "LinearRegression",
+    "params": {
+        "copy_X": true,
+        "fit_intercept": true,
+        "n_jobs": null,
+        "normalize": false,
+        "positive": false
+    },
+    "random_state": 15795,
+    "process_time": 0.016910097999999874,
+    "time_time": 0.10178256034851074,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 2,
+    "symbolic_model": "not implemented",
+    "mse_train": 6.645822562228286,
+    "mae_train": 2.1457619051878907,
+    "r2_train": 0.6983948644741393,
+    "mse_test": 9.39533522745597,
+    "mae_test": 2.0608227968143566,
+    "r2_test": -0.03238729092331516
+}

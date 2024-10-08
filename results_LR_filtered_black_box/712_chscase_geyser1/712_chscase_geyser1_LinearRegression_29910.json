@@ -1,0 +1,24 @@
+{
+    "dataset": "712_chscase_geyser1",
+    "algorithm": "LinearRegression",
+    "params": {
+        "copy_X": true,
+        "fit_intercept": true,
+        "n_jobs": null,
+        "normalize": false,
+        "positive": false
+    },
+    "random_state": 29910,
+    "process_time": 1.8548557009999997,
+    "time_time": 0.2673683166503906,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 2,
+    "symbolic_model": "not implemented",
+    "mse_train": 36.19765781063482,
+    "mae_train": 4.865943220869845,
+    "r2_train": 0.75952059059859,
+    "mse_test": 38.489432572831404,
+    "mae_test": 4.8920133714763585,
+    "r2_test": 0.8070702050435492
+}

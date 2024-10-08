@@ -1,0 +1,25 @@
+{
+    "dataset": "557_analcatdata_apnea1",
+    "algorithm": "KernelRidge",
+    "params": {
+        "alpha": 1,
+        "coef0": 1,
+        "degree": 3,
+        "gamma": 0.01,
+        "kernel": "sigmoid",
+        "kernel_params": null
+    },
+    "random_state": 16850,
+    "process_time": 10.320946546,
+    "time_time": 3.1906232833862305,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 356,
+    "symbolic_model": "not implemented",
+    "mse_train": 10059274.840318179,
+    "mae_train": 1433.2278881414525,
+    "r2_train": 0.019049962981725455,
+    "mse_test": 9729183.797652673,
+    "mae_test": 1410.402748241569,
+    "r2_test": 0.005104526136472831
+}

@@ -1,0 +1,31 @@
+{
+    "dataset": "663_rabe_266",
+    "algorithm": "LassoLars",
+    "params": {
+        "alpha": 0.0001,
+        "copy_X": true,
+        "eps": 2.220446049250313e-16,
+        "fit_intercept": true,
+        "fit_path": true,
+        "jitter": null,
+        "max_iter": 500,
+        "normalize": true,
+        "positive": false,
+        "precompute": "auto",
+        "random_state": 16850,
+        "verbose": false
+    },
+    "random_state": 16850,
+    "process_time": 0.07493335099999987,
+    "time_time": 0.27404236793518066,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 2,
+    "symbolic_model": "not implemented",
+    "mse_train": 73.39419534330729,
+    "mae_train": 6.6741420655238874,
+    "r2_train": 0.9747362689350271,
+    "mse_test": 75.50586009386224,
+    "mae_test": 6.066650395704341,
+    "r2_test": 0.9653671792549063
+}

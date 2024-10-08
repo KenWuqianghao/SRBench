@@ -1,0 +1,31 @@
+{
+    "dataset": "192_vineyard",
+    "algorithm": "LassoLars",
+    "params": {
+        "alpha": 0.01,
+        "copy_X": true,
+        "eps": 2.220446049250313e-16,
+        "fit_intercept": true,
+        "fit_path": true,
+        "jitter": null,
+        "max_iter": 500,
+        "normalize": true,
+        "positive": false,
+        "precompute": "auto",
+        "random_state": 4426,
+        "verbose": false
+    },
+    "random_state": 4426,
+    "process_time": 0.0741376680000001,
+    "time_time": 0.2438185214996338,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 2,
+    "symbolic_model": "not implemented",
+    "mse_train": 8.62521478230336,
+    "mae_train": 2.270312764272177,
+    "r2_train": 0.5708343005419497,
+    "mse_test": 3.9427492332494065,
+    "mae_test": 1.6322644180923886,
+    "r2_test": 0.7350071105909128
+}

@@ -1,0 +1,31 @@
+{
+    "dataset": "519_vinnie",
+    "algorithm": "LassoLars",
+    "params": {
+        "alpha": 0.001,
+        "copy_X": true,
+        "eps": 2.220446049250313e-16,
+        "fit_intercept": true,
+        "fit_path": true,
+        "jitter": null,
+        "max_iter": 500,
+        "normalize": true,
+        "positive": false,
+        "precompute": "auto",
+        "random_state": 860,
+        "verbose": false
+    },
+    "random_state": 860,
+    "process_time": 0.07527366599999996,
+    "time_time": 0.2784566879272461,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 2,
+    "symbolic_model": "not implemented",
+    "mse_train": 2.35482571498242,
+    "mae_train": 1.233047799735461,
+    "r2_train": 0.7370184091929133,
+    "mse_test": 2.3249789780197965,
+    "mae_test": 1.2439331330599792,
+    "r2_test": 0.7775440473619794
+}

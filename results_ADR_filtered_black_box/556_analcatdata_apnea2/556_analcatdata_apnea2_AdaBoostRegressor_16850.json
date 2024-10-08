@@ -1,0 +1,24 @@
+{
+    "dataset": "556_analcatdata_apnea2",
+    "algorithm": "AdaBoostRegressor",
+    "params": {
+        "base_estimator": null,
+        "learning_rate": 0.01,
+        "loss": "linear",
+        "n_estimators": 1000,
+        "random_state": 16850
+    },
+    "random_state": 16850,
+    "process_time": 35.089020211,
+    "time_time": 40.75921821594238,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 14998,
+    "symbolic_model": "not implemented",
+    "mse_train": 859636.6909808215,
+    "mae_train": 425.2338866689646,
+    "r2_train": 0.910368964058094,
+    "mse_test": 963537.1231280352,
+    "mae_test": 394.8683727640333,
+    "r2_test": 0.9031498118865192
+}

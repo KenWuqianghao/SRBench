@@ -1,0 +1,24 @@
+{
+    "dataset": "519_vinnie",
+    "algorithm": "LinearRegression",
+    "params": {
+        "copy_X": true,
+        "fit_intercept": true,
+        "n_jobs": null,
+        "normalize": false,
+        "positive": false
+    },
+    "random_state": 23654,
+    "process_time": 1.940039914,
+    "time_time": 0.22662997245788574,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 2,
+    "symbolic_model": "not implemented",
+    "mse_train": 2.251801906440238,
+    "mae_train": 1.2110044487304379,
+    "r2_train": 0.7350903781525702,
+    "mse_test": 2.6117993272273043,
+    "mae_test": 1.2891386612831994,
+    "r2_test": 0.7843532017617841
+}

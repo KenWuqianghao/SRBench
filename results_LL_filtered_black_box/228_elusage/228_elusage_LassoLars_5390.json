@@ -1,0 +1,31 @@
+{
+    "dataset": "228_elusage",
+    "algorithm": "LassoLars",
+    "params": {
+        "alpha": 0.01,
+        "copy_X": true,
+        "eps": 2.220446049250313e-16,
+        "fit_intercept": true,
+        "fit_path": true,
+        "jitter": null,
+        "max_iter": 500,
+        "normalize": true,
+        "positive": false,
+        "precompute": "auto",
+        "random_state": 5390,
+        "verbose": false
+    },
+    "random_state": 5390,
+    "process_time": 0.07517796499999996,
+    "time_time": 0.24306082725524902,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 2,
+    "symbolic_model": "not implemented",
+    "mse_train": 134.42615277204055,
+    "mae_train": 8.911316727617354,
+    "r2_train": 0.7803072537368211,
+    "mse_test": 106.21429024626934,
+    "mae_test": 8.764387586244291,
+    "r2_test": 0.7506551257530035
+}

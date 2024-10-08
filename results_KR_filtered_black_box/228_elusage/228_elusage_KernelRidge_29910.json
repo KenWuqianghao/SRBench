@@ -1,0 +1,25 @@
+{
+    "dataset": "228_elusage",
+    "algorithm": "KernelRidge",
+    "params": {
+        "alpha": 0.01,
+        "coef0": 1,
+        "degree": 3,
+        "gamma": 1,
+        "kernel": "rbf",
+        "kernel_params": null
+    },
+    "random_state": 29910,
+    "process_time": 0.747042371,
+    "time_time": 2.0513243675231934,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 41,
+    "symbolic_model": "not implemented",
+    "mse_train": 35.5882898345425,
+    "mae_train": 4.413841501758487,
+    "r2_train": 0.9396922051211782,
+    "mse_test": 165.83128797015732,
+    "mae_test": 10.648224276447063,
+    "r2_test": 0.6497092661914279
+}

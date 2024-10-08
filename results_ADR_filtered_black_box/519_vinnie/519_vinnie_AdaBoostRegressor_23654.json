@@ -1,0 +1,24 @@
+{
+    "dataset": "519_vinnie",
+    "algorithm": "AdaBoostRegressor",
+    "params": {
+        "base_estimator": null,
+        "learning_rate": 0.01,
+        "loss": "linear",
+        "n_estimators": 10,
+        "random_state": 23654
+    },
+    "random_state": 23654,
+    "process_time": 12.45221897,
+    "time_time": 14.64041543006897,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 150,
+    "symbolic_model": "not implemented",
+    "mse_train": 2.1503985485846635,
+    "mae_train": 1.1812942407302867,
+    "r2_train": 0.7470198134669073,
+    "mse_test": 2.76363974216687,
+    "mae_test": 1.3181789801961767,
+    "r2_test": 0.7718162893797595
+}

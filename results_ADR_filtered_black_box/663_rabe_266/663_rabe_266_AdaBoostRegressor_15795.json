@@ -1,0 +1,24 @@
+{
+    "dataset": "663_rabe_266",
+    "algorithm": "AdaBoostRegressor",
+    "params": {
+        "base_estimator": null,
+        "learning_rate": 1.0,
+        "loss": "linear",
+        "n_estimators": 1000,
+        "random_state": 15795
+    },
+    "random_state": 15795,
+    "process_time": 34.656236839,
+    "time_time": 42.2537145614624,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 14982,
+    "symbolic_model": "not implemented",
+    "mse_train": 41.111415902795926,
+    "mae_train": 5.358056316307727,
+    "r2_train": 0.9836182296163759,
+    "mse_test": 82.17028970499675,
+    "mae_test": 7.9084538811435054,
+    "r2_test": 0.973383516454885
+}

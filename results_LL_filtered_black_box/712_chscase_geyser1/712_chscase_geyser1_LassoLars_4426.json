@@ -1,0 +1,31 @@
+{
+    "dataset": "712_chscase_geyser1",
+    "algorithm": "LassoLars",
+    "params": {
+        "alpha": 0.001,
+        "copy_X": true,
+        "eps": 2.220446049250313e-16,
+        "fit_intercept": true,
+        "fit_path": true,
+        "jitter": null,
+        "max_iter": 500,
+        "normalize": true,
+        "positive": false,
+        "precompute": "auto",
+        "random_state": 4426,
+        "verbose": false
+    },
+    "random_state": 4426,
+    "process_time": 0.07547291999999994,
+    "time_time": 0.27300596237182617,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 2,
+    "symbolic_model": "not implemented",
+    "mse_train": 33.98443211558389,
+    "mae_train": 4.5438083869615165,
+    "r2_train": 0.7952512745205921,
+    "mse_test": 45.678337084324376,
+    "mae_test": 5.7812464245864374,
+    "r2_test": 0.7028354805725556
+}

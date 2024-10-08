@@ -1,0 +1,31 @@
+{
+    "dataset": "678_visualizing_environmental",
+    "algorithm": "LassoLars",
+    "params": {
+        "alpha": 0.01,
+        "copy_X": true,
+        "eps": 2.220446049250313e-16,
+        "fit_intercept": true,
+        "fit_path": true,
+        "jitter": null,
+        "max_iter": 500,
+        "normalize": true,
+        "positive": false,
+        "precompute": "auto",
+        "random_state": 29910,
+        "verbose": false
+    },
+    "random_state": 29910,
+    "process_time": 0.07861433700000009,
+    "time_time": 0.23664283752441406,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 3,
+    "symbolic_model": "not implemented",
+    "mse_train": 6.71150492932914,
+    "mae_train": 2.013540486997107,
+    "r2_train": 0.3968675190502742,
+    "mse_test": 12.246617938793685,
+    "mae_test": 2.6165064564308467,
+    "r2_test": 0.21360434430899033
+}

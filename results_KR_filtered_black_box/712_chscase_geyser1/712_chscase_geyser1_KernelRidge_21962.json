@@ -1,0 +1,25 @@
+{
+    "dataset": "712_chscase_geyser1",
+    "algorithm": "KernelRidge",
+    "params": {
+        "alpha": 0.01,
+        "coef0": 1,
+        "degree": 3,
+        "gamma": 0.01,
+        "kernel": "sigmoid",
+        "kernel_params": null
+    },
+    "random_state": 21962,
+    "process_time": 2.489962525,
+    "time_time": 2.3508949279785156,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 166,
+    "symbolic_model": "not implemented",
+    "mse_train": 59.51101325604426,
+    "mae_train": 6.275056174286002,
+    "r2_train": 0.613414081695657,
+    "mse_test": 67.60842533589211,
+    "mae_test": 6.85486622753658,
+    "r2_test": 0.6418429463180748
+}

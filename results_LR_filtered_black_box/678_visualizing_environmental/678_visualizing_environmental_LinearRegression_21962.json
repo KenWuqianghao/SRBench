@@ -1,0 +1,24 @@
+{
+    "dataset": "678_visualizing_environmental",
+    "algorithm": "LinearRegression",
+    "params": {
+        "copy_X": true,
+        "fit_intercept": true,
+        "n_jobs": null,
+        "normalize": false,
+        "positive": false
+    },
+    "random_state": 21962,
+    "process_time": 0.016572022000000075,
+    "time_time": 0.06129002571105957,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 3,
+    "symbolic_model": "not implemented",
+    "mse_train": 7.610572108323476,
+    "mae_train": 2.135238783874621,
+    "r2_train": 0.3086948830216134,
+    "mse_test": 7.686168138716482,
+    "mae_test": 2.1451354800910782,
+    "r2_test": 0.5510479288100816
+}

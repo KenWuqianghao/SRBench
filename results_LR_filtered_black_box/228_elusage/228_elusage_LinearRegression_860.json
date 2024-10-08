@@ -1,0 +1,24 @@
+{
+    "dataset": "228_elusage",
+    "algorithm": "LinearRegression",
+    "params": {
+        "copy_X": true,
+        "fit_intercept": true,
+        "n_jobs": null,
+        "normalize": false,
+        "positive": false
+    },
+    "random_state": 860,
+    "process_time": 0.016191359000000016,
+    "time_time": 0.10842275619506836,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 2,
+    "symbolic_model": "not implemented",
+    "mse_train": 139.66878534101207,
+    "mae_train": 9.611688343553018,
+    "r2_train": 0.7818466985895155,
+    "mse_test": 89.32209345383039,
+    "mae_test": 7.69829983063418,
+    "r2_test": 0.7352729352212555
+}

@@ -1,0 +1,25 @@
+{
+    "dataset": "663_rabe_266",
+    "algorithm": "KernelRidge",
+    "params": {
+        "alpha": 0.0001,
+        "coef0": 1,
+        "degree": 3,
+        "gamma": 0.1,
+        "kernel": "rbf",
+        "kernel_params": null
+    },
+    "random_state": 28020,
+    "process_time": 3.856043424,
+    "time_time": 2.5144901275634766,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 90,
+    "symbolic_model": "not implemented",
+    "mse_train": 1.223670572532766,
+    "mae_train": 0.8144940004920702,
+    "r2_train": 0.9995468919572966,
+    "mse_test": 1.57588365902169,
+    "mae_test": 0.9687493321829607,
+    "r2_test": 0.999436130284385
+}
