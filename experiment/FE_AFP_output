@@ -5496,3 +5496,6 @@ Fitting 5 folds for each of 2 candidates, totalling 10 fits
 [CV] END g=500, op_list=['n', 'v', '+', '-', '*', '/', 'sin', 'cos', 'exp', 'log', '2', '3', 'sqrt'], popsize=500; total time= 1.3min
 [CV] END g=500, op_list=['n', 'v', '+', '-', '*', '/', 'sin', 'cos', 'exp', 'log', '2', '3', 'sqrt'], popsize=500; total time= 1.1min
 [CV] END g=500, op_list=['n', 'v', '+', '-', '*', '/', 'sin', 'cos', 'exp', 'log', '2', '3', 'sqrt'], popsize=500; total time=  45.3s
+[CV] END g=500, op_list=['n', 'v', '+', '-', '*', '/', 'sin', 'cos', 'exp', 'log', '2', '3', 'sqrt'], popsize=500; total time= 1.1min
+Training time measures: 949.7074511449999 1804.5948240756989
+save_file: ../results_FE_AFP_filtered_black_box/663_rabe_266//663_rabe_266_FE_AFPRegressor_4426
