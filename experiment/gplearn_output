@@ -1,0 +1,213 @@
+nohup: ignoring input
+import from methods.gplearn
+algorithm: SymbolicRegressor(function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt',
+                                'sin', 'cos'),
+                  generations=500)
+hyperparams: [{'population_size': [1000], 'generations': [500], 'function_set': [('add', 'sub', 'mul', 'div', 'log', 'sqrt')]}, {'population_size': [1000], 'generations': [500], 'function_set': [('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos')]}, {'population_size': [500], 'generations': [1000], 'function_set': [('add', 'sub', 'mul', 'div', 'log', 'sqrt')]}, {'population_size': [500], 'generations': [1000], 'function_set': [('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos')]}, {'population_size': [100], 'generations': [5000], 'function_set': [('add', 'sub', 'mul', 'div', 'log', 'sqrt')]}, {'population_size': [100], 'generations': [5000], 'function_set': [('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos')]}]
+========================================
+Evaluating gplearn on 
+../filtered_black_box_datasets/663_rabe_266/663_rabe_266.tsv.gz
+========================================
+compression: gzip
+filename: ../filtered_black_box_datasets/663_rabe_266/663_rabe_266.tsv.gz
+scaling X
+scaling y
+X_train: (90, 2)
+y_train: (90,)
+training HalvingGridSearchCV(cv=KFold(n_splits=5, random_state=23654, shuffle=True),
+                    error_score=0.0,
+                    estimator=SymbolicRegressor(function_set=('add', 'sub',
+                                                              'mul', 'div',
+                                                              'log', 'sqrt',
+                                                              'sin', 'cos'),
+                                                generations=500,
+                                                random_state=23654),
+                    n_jobs=1,
+                    param_grid=[{'function_set': [('add', 'sub', 'mul', 'div',
+                                                   'log', 'sqrt')],
+                                 'generations': [500],
+                                 'population_size': [1000]},
+                                {'functio...
+                                                   'log', 'sqrt', 'sin',
+                                                   'cos')],
+                                 'generations': [1000],
+                                 'population_size': [500]},
+                                {'function_set': [('add', 'sub', 'mul', 'div',
+                                                   'log', 'sqrt')],
+                                 'generations': [5000],
+                                 'population_size': [100]},
+                                {'function_set': [('add', 'sub', 'mul', 'div',
+                                                   'log', 'sqrt', 'sin',
+                                                   'cos')],
+                                 'generations': [5000],
+                                 'population_size': [100]}],
+                    refit=<function _refit_callable at 0x7fc36bd3cc20>,
+                    scoring='r2', verbose=2)
+n_iterations: 2
+n_required_iterations: 2
+n_possible_iterations: 2
+min_resources_: 30
+max_resources_: 90
+aggressive_elimination: False
+factor: 3
+----------
+iter: 0
+n_candidates: 6
+n_resources: 30
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=500, population_size=1000; total time=14.3min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=500, population_size=1000; total time=13.6min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=500, population_size=1000; total time=13.4min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=500, population_size=1000; total time=14.3min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=500, population_size=1000; total time=16.8min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=13.7min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=13.0min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=13.0min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=13.2min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=15.6min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=1000, population_size=500; total time=16.5min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=1000, population_size=500; total time=18.3min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=1000, population_size=500; total time=18.9min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=1000, population_size=500; total time=16.4min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=1000, population_size=500; total time=16.2min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=1000, population_size=500; total time=18.0min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=1000, population_size=500; total time=16.1min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=1000, population_size=500; total time=18.3min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=1000, population_size=500; total time=17.8min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=1000, population_size=500; total time=14.9min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=5000, population_size=100; total time=45.2min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=5000, population_size=100; total time=53.1min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=5000, population_size=100; total time=44.9min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=5000, population_size=100; total time=46.8min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=5000, population_size=100; total time=41.5min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=5000, population_size=100; total time=60.9min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=5000, population_size=100; total time=66.3min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=5000, population_size=100; total time=56.8min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=5000, population_size=100; total time=50.3min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=5000, population_size=100; total time=52.9min
+----------
+iter: 1
+n_candidates: 2
+n_resources: 90
+Fitting 5 folds for each of 2 candidates, totalling 10 fits
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=5000, population_size=100; total time=61.5min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=5000, population_size=100; total time=60.2min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=5000, population_size=100; total time=60.8min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=5000, population_size=100; total time=58.1min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=5000, population_size=100; total time=61.6min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=16.0min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=16.8min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=18.0min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=16.1min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=16.9min
+Training time measures: 34521.847741355 76741.61124300957
+WARNING: attempting to store  (-1.0, 1.0) as a str for json
+WARNING: attempting to store  ('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos') as a str for json
+WARNING: attempting to store  (2, 6) as a str for json
+save_file: ../results_gplearn_filtered_black_box/663_rabe_266//663_rabe_266_gplearn_23654
+import from methods.gplearn
+algorithm: SymbolicRegressor(function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt',
+                                'sin', 'cos'),
+                  generations=500)
+hyperparams: [{'population_size': [1000], 'generations': [500], 'function_set': [('add', 'sub', 'mul', 'div', 'log', 'sqrt')]}, {'population_size': [1000], 'generations': [500], 'function_set': [('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos')]}, {'population_size': [500], 'generations': [1000], 'function_set': [('add', 'sub', 'mul', 'div', 'log', 'sqrt')]}, {'population_size': [500], 'generations': [1000], 'function_set': [('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos')]}, {'population_size': [100], 'generations': [5000], 'function_set': [('add', 'sub', 'mul', 'div', 'log', 'sqrt')]}, {'population_size': [100], 'generations': [5000], 'function_set': [('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos')]}]
+========================================
+Evaluating gplearn on 
+../filtered_black_box_datasets/192_vineyard/192_vineyard.tsv.gz
+========================================
+compression: gzip
+filename: ../filtered_black_box_datasets/192_vineyard/192_vineyard.tsv.gz
+scaling X
+scaling y
+X_train: (39, 2)
+y_train: (39,)
+training HalvingGridSearchCV(cv=KFold(n_splits=5, random_state=23654, shuffle=True),
+                    error_score=0.0,
+                    estimator=SymbolicRegressor(function_set=('add', 'sub',
+                                                              'mul', 'div',
+                                                              'log', 'sqrt',
+                                                              'sin', 'cos'),
+                                                generations=500,
+                                                random_state=23654),
+                    n_jobs=1,
+                    param_grid=[{'function_set': [('add', 'sub', 'mul', 'div',
+                                                   'log', 'sqrt')],
+                                 'generations': [500],
+                                 'population_size': [1000]},
+                                {'functio...
+                                                   'log', 'sqrt', 'sin',
+                                                   'cos')],
+                                 'generations': [1000],
+                                 'population_size': [500]},
+                                {'function_set': [('add', 'sub', 'mul', 'div',
+                                                   'log', 'sqrt')],
+                                 'generations': [5000],
+                                 'population_size': [100]},
+                                {'function_set': [('add', 'sub', 'mul', 'div',
+                                                   'log', 'sqrt', 'sin',
+                                                   'cos')],
+                                 'generations': [5000],
+                                 'population_size': [100]}],
+                    refit=<function _refit_callable at 0x7f389fa8fc20>,
+                    scoring='r2', verbose=2)
+n_iterations: 2
+n_required_iterations: 2
+n_possible_iterations: 2
+min_resources_: 13
+max_resources_: 39
+aggressive_elimination: False
+factor: 3
+----------
+iter: 0
+n_candidates: 6
+n_resources: 13
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=500, population_size=1000; total time=19.0min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=500, population_size=1000; total time=26.6min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=500, population_size=1000; total time=20.9min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=500, population_size=1000; total time=18.4min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=500, population_size=1000; total time=24.3min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=21.9min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=20.4min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=17.9min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=16.7min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=20.3min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=1000, population_size=500; total time=25.5min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=1000, population_size=500; total time=23.4min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=1000, population_size=500; total time=22.3min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=1000, population_size=500; total time=23.4min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=1000, population_size=500; total time=26.1min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=1000, population_size=500; total time=28.4min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=1000, population_size=500; total time=24.0min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=1000, population_size=500; total time=23.6min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=1000, population_size=500; total time=21.4min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=1000, population_size=500; total time=23.2min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=5000, population_size=100; total time=60.9min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=5000, population_size=100; total time=54.0min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=5000, population_size=100; total time=45.4min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=5000, population_size=100; total time=48.4min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt'), generations=5000, population_size=100; total time=46.9min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=5000, population_size=100; total time=69.4min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=5000, population_size=100; total time=46.7min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=5000, population_size=100; total time=44.9min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=5000, population_size=100; total time=45.7min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=5000, population_size=100; total time=52.1min
+----------
+iter: 1
+n_candidates: 2
+n_resources: 39
+Fitting 5 folds for each of 2 candidates, totalling 10 fits
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=20.7min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=15.6min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=16.8min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=21.7min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=500, population_size=1000; total time=20.7min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=1000, population_size=500; total time=22.4min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=1000, population_size=500; total time=18.5min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=1000, population_size=500; total time=21.4min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=1000, population_size=500; total time=22.5min
+[CV] END function_set=('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos'), generations=1000, population_size=500; total time=22.7min
+Training time measures: 28808.867541898 71039.87980389595
+WARNING: attempting to store  (-1.0, 1.0) as a str for json
+WARNING: attempting to store  ('add', 'sub', 'mul', 'div', 'log', 'sqrt', 'sin', 'cos') as a str for json
+WARNING: attempting to store  (2, 6) as a str for json
+save_file: ../results_gplearn_filtered_black_box/192_vineyard//192_vineyard_gplearn_23654
