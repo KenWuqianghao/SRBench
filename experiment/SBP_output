@@ -84,3 +84,818 @@ Fitting 5 folds for each of 6 candidates, totalling 30 fits
 [CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=26.1min
 ----------
 iter: 1
+n_candidates: 2
+n_resources: 90
+Fitting 5 folds for each of 2 candidates, totalling 10 fits
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=120.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=120.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=120.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=120.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=120.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=120.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=120.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=120.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=119.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=109.9min
+Training time measures: 77099.94785314701 180873.2388896942
+save_file: ../results_SBP_filtered_black_box/663_rabe_266//663_rabe_266_sembackpropgp_23654
+import from methods.sembackpropgp
+algorithm: GPGOMEARegressor(evaluations=500000, functions='+_-_*_aq_plog_sin_cos',
+                 gomea=False, ims=False, initmaxtreeheight=6, maxtreeheight=20,
+                 parallel=False, popsize=100, sbagx=False,
+                 sblibtype='p_10_9999_l_n', sbrdo=0.75, subcross=0.0,
+                 submut=0.25, time=7200)
+hyperparams: [{'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (1000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (1000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (5000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (5000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (False,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (250,), 'sblibtype': ('p_6_9999',)}, {'popsize': (10000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (False,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (250,), 'sblibtype': ('p_6_9999',)}]
+========================================
+Evaluating sembackpropgp on 
+../filtered_black_box_datasets/192_vineyard/192_vineyard.tsv.gz
+========================================
+compression: gzip
+filename: ../filtered_black_box_datasets/192_vineyard/192_vineyard.tsv.gz
+scaling X
+scaling y
+X_train: (39, 2)
+y_train: (39,)
+training HalvingGridSearchCV(cv=KFold(n_splits=5, random_state=23654, shuffle=True),
+                    error_score=0.0,
+                    estimator=GPGOMEARegressor(evaluations=500000,
+                                               functions='+_-_*_aq_plog_sin_cos',
+                                               gomea=False, ims=False,
+                                               initmaxtreeheight=6,
+                                               maxtreeheight=20, parallel=False,
+                                               popsize=100, sbagx=False,
+                                               sblibtype='p_10_9999_l_n',
+                                               sbrdo=0.75, subcross=0.0,
+                                               submut=0.25, time=7200),
+                    n_jobs=1,
+                    p...
+                                 'linearscaling': (False,), 'maxsize': (250,),
+                                 'popsize': (1000,), 'sblibtype': ('p_6_9999',),
+                                 'sbrdo': (0.9,), 'submut': (0.1,),
+                                 'tournament': (4,)},
+                                {'functions': ('+_-_*_aq_plog_sin_cos',),
+                                 'linearscaling': (False,), 'maxsize': (250,),
+                                 'popsize': (10000,),
+                                 'sblibtype': ('p_6_9999',), 'sbrdo': (0.9,),
+                                 'submut': (0.1,), 'tournament': (8,)}],
+                    refit=<function _refit_callable at 0x7feb53e14c20>,
+                    scoring='r2', verbose=2)
+n_iterations: 2
+n_required_iterations: 2
+n_possible_iterations: 2
+min_resources_: 13
+max_resources_: 39
+aggressive_elimination: False
+factor: 3
+----------
+iter: 0
+n_candidates: 6
+n_resources: 13
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=32.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=47.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=48.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=50.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=48.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=39.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=44.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=33.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=55.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=42.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=59.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=38.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=37.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=48.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=51.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=35.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=41.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=55.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=49.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=50.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 6.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 9.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 8.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time=11.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 8.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 9.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 6.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 9.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 5.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 6.4min
+----------
+iter: 1
+n_candidates: 2
+n_resources: 39
+Fitting 5 folds for each of 2 candidates, totalling 10 fits
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=47.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=21.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=26.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=25.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=26.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time=12.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 6.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time=19.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 5.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 5.6min
+Training time measures: 32998.924306517 71732.72784423828
+save_file: ../results_SBP_filtered_black_box/192_vineyard//192_vineyard_sembackpropgp_23654
+import from methods.sembackpropgp
+algorithm: GPGOMEARegressor(evaluations=500000, functions='+_-_*_aq_plog_sin_cos',
+                 gomea=False, ims=False, initmaxtreeheight=6, maxtreeheight=20,
+                 parallel=False, popsize=100, sbagx=False,
+                 sblibtype='p_10_9999_l_n', sbrdo=0.75, subcross=0.0,
+                 submut=0.25, time=7200)
+hyperparams: [{'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (1000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (1000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (5000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (5000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (False,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (250,), 'sblibtype': ('p_6_9999',)}, {'popsize': (10000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (False,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (250,), 'sblibtype': ('p_6_9999',)}]
+========================================
+Evaluating sembackpropgp on 
+../filtered_black_box_datasets/519_vinnie/519_vinnie.tsv.gz
+========================================
+compression: gzip
+filename: ../filtered_black_box_datasets/519_vinnie/519_vinnie.tsv.gz
+scaling X
+scaling y
+X_train: (285, 2)
+y_train: (285,)
+training HalvingGridSearchCV(cv=KFold(n_splits=5, random_state=23654, shuffle=True),
+                    error_score=0.0,
+                    estimator=GPGOMEARegressor(evaluations=500000,
+                                               functions='+_-_*_aq_plog_sin_cos',
+                                               gomea=False, ims=False,
+                                               initmaxtreeheight=6,
+                                               maxtreeheight=20, parallel=False,
+                                               popsize=100, sbagx=False,
+                                               sblibtype='p_10_9999_l_n',
+                                               sbrdo=0.75, subcross=0.0,
+                                               submut=0.25, time=7200),
+                    n_jobs=1,
+                    p...
+                                 'linearscaling': (False,), 'maxsize': (250,),
+                                 'popsize': (1000,), 'sblibtype': ('p_6_9999',),
+                                 'sbrdo': (0.9,), 'submut': (0.1,),
+                                 'tournament': (4,)},
+                                {'functions': ('+_-_*_aq_plog_sin_cos',),
+                                 'linearscaling': (False,), 'maxsize': (250,),
+                                 'popsize': (10000,),
+                                 'sblibtype': ('p_6_9999',), 'sbrdo': (0.9,),
+                                 'submut': (0.1,), 'tournament': (8,)}],
+                    refit=<function _refit_callable at 0x7f27582fec20>,
+                    scoring='r2', verbose=2)
+n_iterations: 2
+n_required_iterations: 2
+n_possible_iterations: 2
+min_resources_: 95
+max_resources_: 285
+aggressive_elimination: False
+factor: 3
+----------
+iter: 0
+n_candidates: 6
+n_resources: 95
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=120.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=120.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=120.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=120.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=120.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=103.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=69.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=68.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=41.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=71.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=73.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=74.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=62.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=54.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=50.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=44.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=41.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=50.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=25.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=34.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 8.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time=10.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 8.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 2.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 7.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=10.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 9.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=10.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=14.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 6.8min
+----------
+iter: 1
+n_candidates: 2
+n_resources: 285
+Fitting 5 folds for each of 2 candidates, totalling 10 fits
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=102.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=98.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=99.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=86.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=103.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time=10.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 5.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 4.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 4.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 3.5min
+Training time measures: 101061.17599312299 124677.39775466919
+save_file: ../results_SBP_filtered_black_box/519_vinnie//519_vinnie_sembackpropgp_23654
+import from methods.sembackpropgp
+algorithm: GPGOMEARegressor(evaluations=500000, functions='+_-_*_aq_plog_sin_cos',
+                 gomea=False, ims=False, initmaxtreeheight=6, maxtreeheight=20,
+                 parallel=False, popsize=100, sbagx=False,
+                 sblibtype='p_10_9999_l_n', sbrdo=0.75, subcross=0.0,
+                 submut=0.25, time=7200)
+hyperparams: [{'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (1000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (1000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (5000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (5000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (False,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (250,), 'sblibtype': ('p_6_9999',)}, {'popsize': (10000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (False,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (250,), 'sblibtype': ('p_6_9999',)}]
+========================================
+Evaluating sembackpropgp on 
+../filtered_black_box_datasets/523_analcatdata_neavote/523_analcatdata_neavote.tsv.gz
+========================================
+compression: gzip
+filename: ../filtered_black_box_datasets/523_analcatdata_neavote/523_analcatdata_neavote.tsv.gz
+scaling X
+scaling y
+X_train: (75, 2)
+y_train: (75,)
+training HalvingGridSearchCV(cv=KFold(n_splits=5, random_state=23654, shuffle=True),
+                    error_score=0.0,
+                    estimator=GPGOMEARegressor(evaluations=500000,
+                                               functions='+_-_*_aq_plog_sin_cos',
+                                               gomea=False, ims=False,
+                                               initmaxtreeheight=6,
+                                               maxtreeheight=20, parallel=False,
+                                               popsize=100, sbagx=False,
+                                               sblibtype='p_10_9999_l_n',
+                                               sbrdo=0.75, subcross=0.0,
+                                               submut=0.25, time=7200),
+                    n_jobs=1,
+                    p...
+                                 'linearscaling': (False,), 'maxsize': (250,),
+                                 'popsize': (1000,), 'sblibtype': ('p_6_9999',),
+                                 'sbrdo': (0.9,), 'submut': (0.1,),
+                                 'tournament': (4,)},
+                                {'functions': ('+_-_*_aq_plog_sin_cos',),
+                                 'linearscaling': (False,), 'maxsize': (250,),
+                                 'popsize': (10000,),
+                                 'sblibtype': ('p_6_9999',), 'sbrdo': (0.9,),
+                                 'submut': (0.1,), 'tournament': (8,)}],
+                    refit=<function _refit_callable at 0x7f15e21fecb0>,
+                    scoring='r2', verbose=2)
+n_iterations: 2
+n_required_iterations: 2
+n_possible_iterations: 2
+min_resources_: 25
+max_resources_: 75
+aggressive_elimination: False
+factor: 3
+----------
+iter: 0
+n_candidates: 6
+n_resources: 25
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=11.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time= 4.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time= 6.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time= 1.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=16.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=10.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time= 5.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time= 6.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=  48.7s
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time= 4.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time= 3.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time= 3.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=12.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time= 1.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time= 4.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time= 4.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time= 1.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time= 4.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time= 9.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=12.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 1.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 2.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time=  56.7s
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 1.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 2.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 3.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 2.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 2.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 2.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 1.9min
+----------
+iter: 1
+n_candidates: 2
+n_resources: 75
+Fitting 5 folds for each of 2 candidates, totalling 10 fits
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 3.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 8.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 7.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 6.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 3.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 1.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 4.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 2.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 5.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 1.7min
+Training time measures: 11771.566497179001 11771.81323671341
+save_file: ../results_SBP_filtered_black_box/523_analcatdata_neavote//523_analcatdata_neavote_sembackpropgp_23654
+import from methods.sembackpropgp
+algorithm: GPGOMEARegressor(evaluations=500000, functions='+_-_*_aq_plog_sin_cos',
+                 gomea=False, ims=False, initmaxtreeheight=6, maxtreeheight=20,
+                 parallel=False, popsize=100, sbagx=False,
+                 sblibtype='p_10_9999_l_n', sbrdo=0.75, subcross=0.0,
+                 submut=0.25, time=7200)
+hyperparams: [{'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (1000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (1000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (5000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (5000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (False,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (250,), 'sblibtype': ('p_6_9999',)}, {'popsize': (10000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (False,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (250,), 'sblibtype': ('p_6_9999',)}]
+========================================
+Evaluating sembackpropgp on 
+../filtered_black_box_datasets/678_visualizing_environmental/678_visualizing_environmental.tsv.gz
+========================================
+compression: gzip
+filename: ../filtered_black_box_datasets/678_visualizing_environmental/678_visualizing_environmental.tsv.gz
+scaling X
+scaling y
+X_train: (83, 3)
+y_train: (83,)
+training HalvingGridSearchCV(cv=KFold(n_splits=5, random_state=23654, shuffle=True),
+                    error_score=0.0,
+                    estimator=GPGOMEARegressor(evaluations=500000,
+                                               functions='+_-_*_aq_plog_sin_cos',
+                                               gomea=False, ims=False,
+                                               initmaxtreeheight=6,
+                                               maxtreeheight=20, parallel=False,
+                                               popsize=100, sbagx=False,
+                                               sblibtype='p_10_9999_l_n',
+                                               sbrdo=0.75, subcross=0.0,
+                                               submut=0.25, time=7200),
+                    n_jobs=1,
+                    p...
+                                 'linearscaling': (False,), 'maxsize': (250,),
+                                 'popsize': (1000,), 'sblibtype': ('p_6_9999',),
+                                 'sbrdo': (0.9,), 'submut': (0.1,),
+                                 'tournament': (4,)},
+                                {'functions': ('+_-_*_aq_plog_sin_cos',),
+                                 'linearscaling': (False,), 'maxsize': (250,),
+                                 'popsize': (10000,),
+                                 'sblibtype': ('p_6_9999',), 'sbrdo': (0.9,),
+                                 'submut': (0.1,), 'tournament': (8,)}],
+                    refit=<function _refit_callable at 0x7f4f81103c20>,
+                    scoring='r2', verbose=2)
+n_iterations: 2
+n_required_iterations: 2
+n_possible_iterations: 2
+min_resources_: 27
+max_resources_: 83
+aggressive_elimination: False
+factor: 3
+----------
+iter: 0
+n_candidates: 6
+n_resources: 27
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=25.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=22.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=19.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=32.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=28.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=18.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=16.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=19.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=20.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=12.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=15.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=18.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=20.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=19.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=31.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=22.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=17.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=16.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=22.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=19.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 5.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 4.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 3.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 1.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 4.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 3.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 6.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 5.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 3.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 3.9min
+----------
+iter: 1
+n_candidates: 2
+n_resources: 81
+Fitting 5 folds for each of 2 candidates, totalling 10 fits
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=50.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=51.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=42.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=47.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=41.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=42.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=48.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=40.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=38.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=39.5min
+Training time measures: 56191.955284917 56193.13400840759
+save_file: ../results_SBP_filtered_black_box/678_visualizing_environmental//678_visualizing_environmental_sembackpropgp_23654
+import from methods.sembackpropgp
+algorithm: GPGOMEARegressor(evaluations=500000, functions='+_-_*_aq_plog_sin_cos',
+                 gomea=False, ims=False, initmaxtreeheight=6, maxtreeheight=20,
+                 parallel=False, popsize=100, sbagx=False,
+                 sblibtype='p_10_9999_l_n', sbrdo=0.75, subcross=0.0,
+                 submut=0.25, time=7200)
+hyperparams: [{'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (1000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (1000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (5000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (5000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (False,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (250,), 'sblibtype': ('p_6_9999',)}, {'popsize': (10000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (False,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (250,), 'sblibtype': ('p_6_9999',)}]
+========================================
+Evaluating sembackpropgp on 
+../filtered_black_box_datasets/556_analcatdata_apnea2/556_analcatdata_apnea2.tsv.gz
+========================================
+compression: gzip
+filename: ../filtered_black_box_datasets/556_analcatdata_apnea2/556_analcatdata_apnea2.tsv.gz
+scaling X
+scaling y
+X_train: (356, 3)
+y_train: (356,)
+training HalvingGridSearchCV(cv=KFold(n_splits=5, random_state=23654, shuffle=True),
+                    error_score=0.0,
+                    estimator=GPGOMEARegressor(evaluations=500000,
+                                               functions='+_-_*_aq_plog_sin_cos',
+                                               gomea=False, ims=False,
+                                               initmaxtreeheight=6,
+                                               maxtreeheight=20, parallel=False,
+                                               popsize=100, sbagx=False,
+                                               sblibtype='p_10_9999_l_n',
+                                               sbrdo=0.75, subcross=0.0,
+                                               submut=0.25, time=7200),
+                    n_jobs=1,
+                    p...
+                                 'linearscaling': (False,), 'maxsize': (250,),
+                                 'popsize': (1000,), 'sblibtype': ('p_6_9999',),
+                                 'sbrdo': (0.9,), 'submut': (0.1,),
+                                 'tournament': (4,)},
+                                {'functions': ('+_-_*_aq_plog_sin_cos',),
+                                 'linearscaling': (False,), 'maxsize': (250,),
+                                 'popsize': (10000,),
+                                 'sblibtype': ('p_6_9999',), 'sbrdo': (0.9,),
+                                 'submut': (0.1,), 'tournament': (8,)}],
+                    refit=<function _refit_callable at 0x7f0a7a82bcb0>,
+                    scoring='r2', verbose=2)
+n_iterations: 2
+n_required_iterations: 2
+n_possible_iterations: 2
+min_resources_: 118
+max_resources_: 356
+aggressive_elimination: False
+factor: 3
+----------
+iter: 0
+n_candidates: 6
+n_resources: 118
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=38.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=55.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=38.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=44.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=52.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time= 8.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=49.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=50.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=41.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=30.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=47.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=66.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=46.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=61.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=51.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=23.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=43.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=36.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=12.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=44.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 7.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 5.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 6.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 5.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 4.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=11.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 9.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=12.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 9.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 9.6min
+----------
+iter: 1
+n_candidates: 2
+n_resources: 354
+Fitting 5 folds for each of 2 candidates, totalling 10 fits
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=84.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=46.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=30.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=32.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=37.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=115.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=97.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=59.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=120.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=110.4min
+Training time measures: 103052.98415134201 103055.39095759392
+save_file: ../results_SBP_filtered_black_box/556_analcatdata_apnea2//556_analcatdata_apnea2_sembackpropgp_23654
+import from methods.sembackpropgp
+algorithm: GPGOMEARegressor(evaluations=500000, functions='+_-_*_aq_plog_sin_cos',
+                 gomea=False, ims=False, initmaxtreeheight=6, maxtreeheight=20,
+                 parallel=False, popsize=100, sbagx=False,
+                 sblibtype='p_10_9999_l_n', sbrdo=0.75, subcross=0.0,
+                 submut=0.25, time=7200)
+hyperparams: [{'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (1000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (1000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (5000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (5000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (False,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (250,), 'sblibtype': ('p_6_9999',)}, {'popsize': (10000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (False,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (250,), 'sblibtype': ('p_6_9999',)}]
+========================================
+Evaluating sembackpropgp on 
+../filtered_black_box_datasets/712_chscase_geyser1/712_chscase_geyser1.tsv.gz
+========================================
+compression: gzip
+filename: ../filtered_black_box_datasets/712_chscase_geyser1/712_chscase_geyser1.tsv.gz
+scaling X
+scaling y
+X_train: (166, 2)
+y_train: (166,)
+training HalvingGridSearchCV(cv=KFold(n_splits=5, random_state=23654, shuffle=True),
+                    error_score=0.0,
+                    estimator=GPGOMEARegressor(evaluations=500000,
+                                               functions='+_-_*_aq_plog_sin_cos',
+                                               gomea=False, ims=False,
+                                               initmaxtreeheight=6,
+                                               maxtreeheight=20, parallel=False,
+                                               popsize=100, sbagx=False,
+                                               sblibtype='p_10_9999_l_n',
+                                               sbrdo=0.75, subcross=0.0,
+                                               submut=0.25, time=7200),
+                    n_jobs=1,
+                    p...
+                                 'linearscaling': (False,), 'maxsize': (250,),
+                                 'popsize': (1000,), 'sblibtype': ('p_6_9999',),
+                                 'sbrdo': (0.9,), 'submut': (0.1,),
+                                 'tournament': (4,)},
+                                {'functions': ('+_-_*_aq_plog_sin_cos',),
+                                 'linearscaling': (False,), 'maxsize': (250,),
+                                 'popsize': (10000,),
+                                 'sblibtype': ('p_6_9999',), 'sbrdo': (0.9,),
+                                 'submut': (0.1,), 'tournament': (8,)}],
+                    refit=<function _refit_callable at 0x7feac1e8fc20>,
+                    scoring='r2', verbose=2)
+n_iterations: 2
+n_required_iterations: 2
+n_possible_iterations: 2
+min_resources_: 55
+max_resources_: 166
+aggressive_elimination: False
+factor: 3
+----------
+iter: 0
+n_candidates: 6
+n_resources: 55
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=39.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=30.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=33.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=25.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=31.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=23.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=33.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=27.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=33.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=21.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=30.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=30.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=34.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=32.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=32.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=34.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=19.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=22.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=32.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=18.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 5.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 3.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 4.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 3.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 5.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=13.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 6.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 4.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 6.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 4.1min
+----------
+iter: 1
+n_candidates: 2
+n_resources: 165
+Fitting 5 folds for each of 2 candidates, totalling 10 fits
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=13.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=11.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=14.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=10.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=14.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time=12.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 8.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 6.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time=14.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 4.6min
+Training time measures: 46105.79040369 46106.69932460785
+save_file: ../results_SBP_filtered_black_box/712_chscase_geyser1//712_chscase_geyser1_sembackpropgp_23654
+import from methods.sembackpropgp
+algorithm: GPGOMEARegressor(evaluations=500000, functions='+_-_*_aq_plog_sin_cos',
+                 gomea=False, ims=False, initmaxtreeheight=6, maxtreeheight=20,
+                 parallel=False, popsize=100, sbagx=False,
+                 sblibtype='p_10_9999_l_n', sbrdo=0.75, subcross=0.0,
+                 submut=0.25, time=7200)
+hyperparams: [{'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (1000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (1000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (5000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (5000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (False,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (250,), 'sblibtype': ('p_6_9999',)}, {'popsize': (10000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (False,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (250,), 'sblibtype': ('p_6_9999',)}]
+========================================
+Evaluating sembackpropgp on 
+../filtered_black_box_datasets/228_elusage/228_elusage.tsv.gz
+========================================
+compression: gzip
+filename: ../filtered_black_box_datasets/228_elusage/228_elusage.tsv.gz
+scaling X
+scaling y
+X_train: (41, 2)
+y_train: (41,)
+training HalvingGridSearchCV(cv=KFold(n_splits=5, random_state=23654, shuffle=True),
+                    error_score=0.0,
+                    estimator=GPGOMEARegressor(evaluations=500000,
+                                               functions='+_-_*_aq_plog_sin_cos',
+                                               gomea=False, ims=False,
+                                               initmaxtreeheight=6,
+                                               maxtreeheight=20, parallel=False,
+                                               popsize=100, sbagx=False,
+                                               sblibtype='p_10_9999_l_n',
+                                               sbrdo=0.75, subcross=0.0,
+                                               submut=0.25, time=7200),
+                    n_jobs=1,
+                    p...
+                                 'linearscaling': (False,), 'maxsize': (250,),
+                                 'popsize': (1000,), 'sblibtype': ('p_6_9999',),
+                                 'sbrdo': (0.9,), 'submut': (0.1,),
+                                 'tournament': (4,)},
+                                {'functions': ('+_-_*_aq_plog_sin_cos',),
+                                 'linearscaling': (False,), 'maxsize': (250,),
+                                 'popsize': (10000,),
+                                 'sblibtype': ('p_6_9999',), 'sbrdo': (0.9,),
+                                 'submut': (0.1,), 'tournament': (8,)}],
+                    refit=<function _refit_callable at 0x7f66f049bc20>,
+                    scoring='r2', verbose=2)
+n_iterations: 2
+n_required_iterations: 2
+n_possible_iterations: 2
+min_resources_: 13
+max_resources_: 41
+aggressive_elimination: False
+factor: 3
+----------
+iter: 0
+n_candidates: 6
+n_resources: 13
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=12.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=10.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=12.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=18.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=11.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=10.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=15.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=14.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time= 9.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=11.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=11.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=12.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=11.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=13.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=12.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=12.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=12.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=17.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time= 8.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time= 9.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 3.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 2.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 1.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 1.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 3.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 3.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 1.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 5.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time= 1.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=  46.1s
+----------
+iter: 1
+n_candidates: 2
+n_resources: 39
+Fitting 5 folds for each of 2 candidates, totalling 10 fits
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=23.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=25.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=26.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=18.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=45.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=18.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=18.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=24.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=21.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=25.2min
+Training time measures: 33016.79750475 33017.74628782272
+save_file: ../results_SBP_filtered_black_box/228_elusage//228_elusage_sembackpropgp_23654
+import from methods.sembackpropgp
+algorithm: GPGOMEARegressor(evaluations=500000, functions='+_-_*_aq_plog_sin_cos',
+                 gomea=False, ims=False, initmaxtreeheight=6, maxtreeheight=20,
+                 parallel=False, popsize=100, sbagx=False,
+                 sblibtype='p_10_9999_l_n', sbrdo=0.75, subcross=0.0,
+                 submut=0.25, time=7200)
+hyperparams: [{'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (1000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (1000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (5000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (True,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (5000,)}, {'popsize': (1000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (False,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (4,), 'maxsize': (250,), 'sblibtype': ('p_6_9999',)}, {'popsize': (10000,), 'functions': ('+_-_*_aq_plog_sin_cos',), 'linearscaling': (False,), 'sbrdo': (0.9,), 'submut': (0.1,), 'tournament': (8,), 'maxsize': (250,), 'sblibtype': ('p_6_9999',)}]
+========================================
+Evaluating sembackpropgp on 
+../filtered_black_box_datasets/557_analcatdata_apnea1/557_analcatdata_apnea1.tsv.gz
+========================================
+compression: gzip
+filename: ../filtered_black_box_datasets/557_analcatdata_apnea1/557_analcatdata_apnea1.tsv.gz
+scaling X
+scaling y
+X_train: (356, 3)
+y_train: (356,)
+training HalvingGridSearchCV(cv=KFold(n_splits=5, random_state=23654, shuffle=True),
+                    error_score=0.0,
+                    estimator=GPGOMEARegressor(evaluations=500000,
+                                               functions='+_-_*_aq_plog_sin_cos',
+                                               gomea=False, ims=False,
+                                               initmaxtreeheight=6,
+                                               maxtreeheight=20, parallel=False,
+                                               popsize=100, sbagx=False,
+                                               sblibtype='p_10_9999_l_n',
+                                               sbrdo=0.75, subcross=0.0,
+                                               submut=0.25, time=7200),
+                    n_jobs=1,
+                    p...
+                                 'linearscaling': (False,), 'maxsize': (250,),
+                                 'popsize': (1000,), 'sblibtype': ('p_6_9999',),
+                                 'sbrdo': (0.9,), 'submut': (0.1,),
+                                 'tournament': (4,)},
+                                {'functions': ('+_-_*_aq_plog_sin_cos',),
+                                 'linearscaling': (False,), 'maxsize': (250,),
+                                 'popsize': (10000,),
+                                 'sblibtype': ('p_6_9999',), 'sbrdo': (0.9,),
+                                 'submut': (0.1,), 'tournament': (8,)}],
+                    refit=<function _refit_callable at 0x7fbbb361dcb0>,
+                    scoring='r2', verbose=2)
+n_iterations: 2
+n_required_iterations: 2
+n_possible_iterations: 2
+min_resources_: 118
+max_resources_: 356
+aggressive_elimination: False
+factor: 3
+----------
+iter: 0
+n_candidates: 6
+n_resources: 118
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=38.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=48.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=40.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=33.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=53.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=34.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=52.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=30.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=17.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=48.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=43.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=47.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=68.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=50.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=48.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=52.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=38.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=20.0min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=57.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=52.4min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 9.9min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 8.6min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 4.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 4.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=1000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=4; total time= 7.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=12.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=13.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=13.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=12.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=False, maxsize=250, popsize=10000, sblibtype=p_6_9999, sbrdo=0.9, submut=0.1, tournament=8; total time=14.2min
+----------
+iter: 1
+n_candidates: 2
+n_resources: 354
+Fitting 5 folds for each of 2 candidates, totalling 10 fits
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=120.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=81.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=120.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=36.7min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=5000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=8; total time=120.1min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=109.5min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=109.8min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=120.2min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=120.3min
+[CV] END functions=+_-_*_aq_plog_sin_cos, linearscaling=True, maxsize=1000, popsize=1000, sbrdo=0.9, submut=0.1, tournament=4; total time=114.2min
+Training time measures: 128924.40234994 128926.83155727386
+save_file: ../results_SBP_filtered_black_box/557_analcatdata_apnea1//557_analcatdata_apnea1_sembackpropgp_23654

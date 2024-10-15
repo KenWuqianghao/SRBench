@@ -1,0 +1,39 @@
+{
+    "dataset": "192_vineyard",
+    "algorithm": "BSRRegressor",
+    "params": {
+        "Ops": [
+            "inv",
+            "ln",
+            "neg",
+            "sin",
+            "cos",
+            "exp",
+            "square",
+            "cubic",
+            "+",
+            "*"
+        ],
+        "alpha1": 0.4,
+        "alpha2": 0.4,
+        "beta": -1,
+        "disp": false,
+        "itrNum": 5000,
+        "max_time": 7200,
+        "treeNum": 3,
+        "val": 100
+    },
+    "random_state": 23654,
+    "process_time": 256272.30301232002,
+    "time_time": 259821.42090892792,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 35,
+    "symbolic_model": "[-0.04863646]+[0.41035768]*cos(x[0])+x[1]+x[0]+[-0.0006422]*((1/[x[1]])*(cos((x[0])^3))+(x[0])*(-(2.0589*(x[1])+0.8252)))^2+cos(1.176*(x[1])+6.2025)+[-0.0205384]*(x[1]+cos(0.8194*((x[1])*(x[0]))+0.1385)+x[0]+x[1])^2",
+    "mse_train": 4.6553481598272395,
+    "mae_train": 1.8320043072632684,
+    "r2_train": 0.7278296221134213,
+    "mse_test": 7.642237868816043,
+    "mae_test": 2.172397671306515,
+    "r2_test": 0.6866719554027387
+}
