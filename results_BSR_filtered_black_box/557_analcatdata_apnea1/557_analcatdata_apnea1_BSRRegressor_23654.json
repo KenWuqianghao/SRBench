@@ -1,0 +1,39 @@
+{
+    "dataset": "557_analcatdata_apnea1",
+    "algorithm": "BSRRegressor",
+    "params": {
+        "Ops": [
+            "inv",
+            "ln",
+            "neg",
+            "sin",
+            "cos",
+            "exp",
+            "square",
+            "cubic",
+            "+",
+            "*"
+        ],
+        "alpha1": 0.4,
+        "alpha2": 0.4,
+        "beta": -1,
+        "disp": false,
+        "itrNum": 500,
+        "max_time": 7200,
+        "treeNum": 3,
+        "val": 1000
+    },
+    "random_state": 23654,
+    "process_time": 3054792.2395518282,
+    "time_time": 282795.4414343834,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 27,
+    "symbolic_model": "[0.20893001]+[-1.50636177]*-(-(sin(1.3944*(x[1])+2.9902)+sin(x[1])))+[-0.54104098]*sin(exp(1.7424*((x[0])^3)+0.8305))+[0.00477214]*(1.3371*((0.6158*(x[0])+1.1409)^3+1.2651*(x[1])+1.0204)+0.0869)*((x[2])^2+x[1]+x[1])",
+    "mse_train": 9103464.213693678,
+    "mae_train": 1639.318842733823,
+    "r2_train": 0.21876894489261567,
+    "mse_test": 5376260.217020053,
+    "mae_test": 1454.3163032939913,
+    "r2_test": 0.027141177606946343
+}

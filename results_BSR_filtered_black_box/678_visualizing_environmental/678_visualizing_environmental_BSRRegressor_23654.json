@@ -1,0 +1,39 @@
+{
+    "dataset": "678_visualizing_environmental",
+    "algorithm": "BSRRegressor",
+    "params": {
+        "Ops": [
+            "inv",
+            "ln",
+            "neg",
+            "sin",
+            "cos",
+            "exp",
+            "square",
+            "cubic",
+            "+",
+            "*"
+        ],
+        "alpha1": 0.4,
+        "alpha2": 0.4,
+        "beta": -1,
+        "disp": false,
+        "itrNum": 5000,
+        "max_time": 7200,
+        "treeNum": 6,
+        "val": 100
+    },
+    "random_state": 23654,
+    "process_time": 258339.493827256,
+    "time_time": 273829.12674188614,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 38,
+    "symbolic_model": "[-1.79280767]+[0.32431706]*1.7309*(cos(((x[0])*(sin(x[2])))^2))+2.5165+[0.32603528]*0.9477*(exp(cos(exp(x[0]))))+-0.5683+sin(x[1])+[-0.07124623]*x[0]+(cos(x[2])+-(x[2]))^2+[0.01629653]*x[0]+2.9659*((x[2])*(x[1]))+1.9772+[0.64737066]*((x[2])*(cos(x[2])))^3+[0.31912584]*0.9575*((x[1])*(x[1]))+-0.4192",
+    "mse_train": 8.88648696761774,
+    "mae_train": 2.395888119989571,
+    "r2_train": 0.35259908327095524,
+    "mse_test": 7.607368612140263,
+    "mae_test": 2.1979323041527175,
+    "r2_test": 0.15045053069249714
+}

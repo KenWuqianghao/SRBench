@@ -1,0 +1,27 @@
+{
+    "dataset": "192_vineyard",
+    "algorithm": "AIFeynman",
+    "params": {
+        "BF_ops_file_type": "14ops.txt",
+        "BF_try_time": 600,
+        "NN_epochs": 400,
+        "max_time": 7200,
+        "polyfit_deg": 4,
+        "random_state": 15795,
+        "test_percentage": 20,
+        "tmp_dir": null
+    },
+    "random_state": 15795,
+    "process_time": 3736.938446942,
+    "time_time": 210119.39397501945,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 15,
+    "symbolic_model": "0.453375951989+(x1/exp(exp((pi/sin(cos(x0))))))",
+    "mse_train": 16.968803229003303,
+    "mae_train": 3.089557107219261,
+    "r2_train": 0.22991049645490014,
+    "mse_test": 10.711538461543304,
+    "mae_test": 2.4230769230773634,
+    "r2_test": -0.17701560468193644
+}

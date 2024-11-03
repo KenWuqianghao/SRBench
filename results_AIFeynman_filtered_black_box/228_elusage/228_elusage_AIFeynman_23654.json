@@ -1,0 +1,27 @@
+{
+    "dataset": "228_elusage",
+    "algorithm": "AIFeynman",
+    "params": {
+        "BF_ops_file_type": "14ops.txt",
+        "BF_try_time": 60,
+        "NN_epochs": 4000,
+        "max_time": 7200,
+        "polyfit_deg": 4,
+        "random_state": 23654,
+        "test_percentage": 20,
+        "tmp_dir": null
+    },
+    "random_state": 23654,
+    "process_time": 4883.82194938,
+    "time_time": 185947.1123125553,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 12,
+    "symbolic_model": "-0.645116826992*(x0+exp((x0*(-x0))))",
+    "mse_train": 184.1463292989049,
+    "mae_train": 9.233039959234667,
+    "r2_train": 0.6781503361761467,
+    "mse_test": 112.3430863919654,
+    "mae_test": 7.8330483937719535,
+    "r2_test": 0.7736339982705062
+}
