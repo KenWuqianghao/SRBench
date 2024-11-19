@@ -1,0 +1,27 @@
+{
+    "dataset": "519_vinnie",
+    "algorithm": "AIFeynman",
+    "params": {
+        "BF_ops_file_type": "14ops.txt",
+        "BF_try_time": 600,
+        "NN_epochs": 400,
+        "max_time": 7200,
+        "polyfit_deg": 4,
+        "random_state": 15795,
+        "test_percentage": 20,
+        "tmp_dir": null
+    },
+    "random_state": 15795,
+    "process_time": 2965.280593186,
+    "time_time": 231498.66842532158,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 10,
+    "symbolic_model": "-0.069218260515+sin((x1/sqrt((x1*x1))))",
+    "mse_train": 4.700241336782781,
+    "mae_train": 1.7050170257547976,
+    "r2_train": 0.48355179864051345,
+    "mse_test": 4.726922783781894,
+    "mae_test": 1.767609459185586,
+    "r2_test": 0.542681723300549
+}

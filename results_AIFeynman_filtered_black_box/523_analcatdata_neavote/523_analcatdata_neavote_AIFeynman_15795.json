@@ -1,0 +1,27 @@
+{
+    "dataset": "523_analcatdata_neavote",
+    "algorithm": "AIFeynman",
+    "params": {
+        "BF_ops_file_type": "14ops.txt",
+        "BF_try_time": 600,
+        "NN_epochs": 400,
+        "max_time": 7200,
+        "polyfit_deg": 4,
+        "random_state": 15795,
+        "test_percentage": 20,
+        "tmp_dir": null
+    },
+    "random_state": 15795,
+    "process_time": 2943.207533751,
+    "time_time": 231573.53664541245,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 12,
+    "symbolic_model": "-1.309311757921*(x0/sqrt((sqrt(sin(exp(x0)))+1)))",
+    "mse_train": 1.0585308419236894,
+    "mae_train": 0.5325147772241097,
+    "r2_train": 0.9294989582052103,
+    "mse_test": 0.7200000703774131,
+    "mae_test": 0.4800001055663853,
+    "r2_test": 0.95599451946158
+}

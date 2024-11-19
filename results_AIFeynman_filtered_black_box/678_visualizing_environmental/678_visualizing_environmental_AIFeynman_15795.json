@@ -1,0 +1,27 @@
+{
+    "dataset": "678_visualizing_environmental",
+    "algorithm": "AIFeynman",
+    "params": {
+        "BF_ops_file_type": "14ops.txt",
+        "BF_try_time": 600,
+        "NN_epochs": 400,
+        "max_time": 7200,
+        "polyfit_deg": 4,
+        "random_state": 15795,
+        "test_percentage": 20,
+        "tmp_dir": null
+    },
+    "random_state": 15795,
+    "process_time": 5738.396439913,
+    "time_time": 265129.23863244057,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 12,
+    "symbolic_model": "-0.817036676080*(x0-(sqrt((x0*x0))-1))",
+    "mse_train": 8.267785065332589,
+    "mae_train": 2.2529966451517507,
+    "r2_train": 0.28250669160875264,
+    "mse_test": 14.607648518938612,
+    "mae_test": 2.7689041523292945,
+    "r2_test": 0.023666157815321998
+}

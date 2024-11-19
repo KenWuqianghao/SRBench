@@ -1,0 +1,27 @@
+{
+    "dataset": "556_analcatdata_apnea2",
+    "algorithm": "AIFeynman",
+    "params": {
+        "BF_ops_file_type": "14ops.txt",
+        "BF_try_time": 60,
+        "NN_epochs": 4000,
+        "max_time": 7200,
+        "polyfit_deg": 4,
+        "random_state": 15795,
+        "test_percentage": 20,
+        "tmp_dir": null
+    },
+    "random_state": 15795,
+    "process_time": 12697.857657612001,
+    "time_time": 291352.7036230564,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 1,
+    "symbolic_model": "-0.261609442459*(x0-(x0-1))",
+    "mse_train": 9781317.261235818,
+    "mae_train": 791.5477528089966,
+    "r2_train": -0.06843950038370905,
+    "mse_test": 12195977.25210067,
+    "mae_test": 982.7815126050355,
+    "r2_test": -0.08600617758152884
+}

@@ -1,0 +1,39 @@
+{
+    "dataset": "678_visualizing_environmental",
+    "algorithm": "BSRRegressor",
+    "params": {
+        "Ops": [
+            "inv",
+            "ln",
+            "neg",
+            "sin",
+            "cos",
+            "exp",
+            "square",
+            "cubic",
+            "+",
+            "*"
+        ],
+        "alpha1": 0.4,
+        "alpha2": 0.4,
+        "beta": -1,
+        "disp": false,
+        "itrNum": 500,
+        "max_time": 7200,
+        "treeNum": 6,
+        "val": 1000
+    },
+    "random_state": 15795,
+    "process_time": 264900.966361181,
+    "time_time": 264914.52910637856,
+    "target_noise": 0.0,
+    "feature_noise": 0.0,
+    "model_size": 30,
+    "symbolic_model": "[0.10313336]+[-0.03930323]*((x[2])^2)*(exp(x[0]))+[0.44348042]*(sin(-((x[0])^3)))^3+[0.13049578]*sin(1/[x[1]])+[-0.05788188]*(0.2891*(1.3339*(x[1])+-2.8264)+-0.2401)^3+[-0.137809]*exp(sin(1/[(x[0])^3]))+[-0.27053436]*1/[((x[0])*(1/[x[0]]))*(1/[x[2]])]",
+    "mse_train": 7.893777135035442,
+    "mae_train": 2.2680415640681573,
+    "r2_train": 0.31496377475169335,
+    "mse_test": 10.752837871478723,
+    "mae_test": 2.4071666818757187,
+    "r2_test": 0.2813107804559535
+}
